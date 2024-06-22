@@ -18,39 +18,63 @@
 
     </aside>
     <header>
-        <div class="logo-img">
-            <a href="">
-                <img src="../assets/img/objects/ALLDLogoSmall.png" alt="Logo ALLD">
-            </a>
-        </div>
-        <div class="search-bar-div">
-            <form action="" method="get" class="search-bar-forms">
-                <input type="text" name="pesquisa" id="search-bar" placeholder="Busque por joias, alianças...">
-                <button class="search-bar-button">Buscar <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></button>
-            </form>
-        </div>
-        <div class="service-div">
-            <div class="user-div">
-                <a href="">
-                    <div class="user-icon">
-                        <i class="fa-solid fa-user" style="color: #000000;"></i>
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <div class="logo-img-area">
+                        <a href="" class="logo-img">
+                            <img src="../assets/img/objects/ALLDLogoSmall.png" alt="Logo ALLD">
+                        </a>
                     </div>
-                    <div class="user-text">Minha Conta</div>
-                </a>
+                </div>
+                <div class="col-8">
+                    <div class="search-bar-div">
+                        <form action="" method="get" class="search-bar-forms">
+                            <input type="text" name="pesquisa" id="search-bar" placeholder="Busque por joias, alianças...">
+                            <button class="search-bar-button">Buscar <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="service-div">
+                        <div class="user-div">
+                            <a href="">
+                                <div class="user-icon">
+                                    <i class="fa-solid fa-user" style="color: #000000;"></i>
+                                </div>
+                                <div class="user-text">Minha Conta</div>
+                            </a>
+                        </div>
+                        <div class="cart-div">
+                            <a href="">
+                                <div class="cart-icon">
+                                    <i class="fa-solid fa-cart-shopping" style="color: #000000;"></i>
+                                    <span class="cart-number"></span>
+                                </div>
+                                <div class="cart-text">
+                                    Carrinho
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="cart-div">
-                <a href="">
-                    <div class="cart-icon">
-                        <i class="fa-solid fa-cart-shopping" style="color: #000000;"></i>
-                        <span class="cart-number"></span>
-                    </div>
-                    <div class="cart-text">
-                        Carrinho
-                    </div>
-                </a>
-            </div>
         </div>
+        <nav>
+            <ul class="links">
+                <li><a href="">Novidades</a></li>
+                <li><a href="">Joias</a></li>
+                <li><a href="">Acessórios</a></li>
+                <li><a href="">Casamento</a></li>
+                <li><a href="">Anéis</a></li>
+                <li><a href="">Brincos</a></li>
+                <li><a href="">Correntes</a></li>
+            </ul>
+        </nav>
     </header>
+
+
+
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <!-- JS -->
