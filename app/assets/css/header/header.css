@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --rosa1: #CFB2A3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 15vh;
+}
+
+/* Logo */
+.logo-img,
+.logo-img a,
+.logo-img img {
+    display: block;
+    height: 13vh;
+}
+
+/* Barra de busca */
+.search-bar-forms {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 45vw;
+    padding: 5px 15px;
+    background-color: #e4e4e4;
+    border-radius: 30px;
+}
+
+#search-bar {
+    width: 80%;
+    border: none;
+    background-color: transparent;
+}
+
+#search-bar::placeholder {
+    font-family: 'Ubunto Mono';
+}
+
+#search-bar:focus {
+    outline: none;
+}
+
+.search-bar-button {
+    background-color: var(--rosa1);
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: none;
+}
+
+.search-bar-button i {
+    font-size: 0.8em;
+}
+
+/* Área de serviços */
+
+.service-div,
+.user-div,
+.cart-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-div,
+.cart-div{
+    width: 5vw;
+}
+
+.user-div a,
+.cart-div a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
