@@ -42,7 +42,7 @@ header {
 }
 
 #search-bar::placeholder {
-    font-family: 'Ubunto Mono';
+    font-family: "Ubuntu Mono";
 }
 
 #search-bar:focus {
