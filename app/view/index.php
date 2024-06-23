@@ -48,8 +48,7 @@
                         <div class="cart-div">
                             <a href="">
                                 <div class="cart-icon">
-                                    <i class="fa-solid fa-cart-shopping" style="color: #000000;"></i>
-                                    <span class="cart-number"></span>
+                                    <i class="fa-solid fa-bag-shopping" style="color: #000000;"></i>
                                 </div>
                                 <div class="cart-text">
                                     Carrinho
@@ -77,6 +76,21 @@
                 <li><a href="">Correntes</a></li>
             </ul>
         </nav>
+        <div class="mobile-nav">
+            <div class="row">
+                <div class="col-10">
+                    <div class="search-bar-mobile-div">
+                        <form action="" method="get" class="search-bar-mobile-forms">
+                            <input type="text" name="pesquisa" id="search-bar-mobile" placeholder="Busque por joias, alianças...">
+                            <button class="search-bar-mobile-button"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <i class="fa-solid fa-bag-shopping" style="color: #000000; font-size: 1.8em;"></i>
+                </div>
+            </div>
+        </div>
     </header>
 
 

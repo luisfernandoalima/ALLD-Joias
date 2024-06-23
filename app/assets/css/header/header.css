@@ -119,6 +119,19 @@ header {
     font-size: .8em;
 }
 
+.cart-number {
+    position: absolute;
+    background-color: red;
+    color: #fff;
+    top: 2.8%;
+    right: 5.1%;
+    border-radius: 50%;
+    font-size: .7em;
+    text-align: center;
+    height: 15px;
+    width: 15px;
+}
+
 /* Links de navegação */
 nav {
     width: 100%;
@@ -169,7 +182,7 @@ label span {
     height: 5px;
     width: 100%;
     border-radius: 30px;
-    background-color: black;
+    background-color: #000;
     transition: .25s ease-in-out;
 }
 
@@ -203,6 +216,10 @@ label span:nth-child(3) {
     display: none;
 }
 
+.mobile-nav {
+    display: none;
+}
+
 @media (max-width:818px) {
     .service-div {
         display: none;
@@ -218,5 +235,53 @@ label span:nth-child(3) {
 
     .label-menu {
         display: block;
+    }
+
+    .mobile-nav {
+        display: block;
+        width: 100%;
+    }
+
+    .search-bar-mobile-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .search-bar-mobile-forms {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        padding: 5px 15px;
+        background-color: #e4e4e4;
+        border-radius: 30px;
+    }
+
+    #search-bar-mobile {
+        width: 90%;
+        border: none;
+        background-color: transparent;
+    }
+
+    #search-bar-mobile::placeholder {
+        font-family: "Ubuntu Mono";
+    }
+
+    #search-bar-mobile:focus {
+        outline: none;
+
+    }
+
+    .search-bar-mobile-button {
+        background-color: var(--rosa1);
+        border: none;
+        border-radius: 50%;
+        width: 24px;
+    }
+
+    .cart-number {
+        top: 60px;
+        right: 60px;
     }
 }
