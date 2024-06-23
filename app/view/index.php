@@ -18,16 +18,16 @@
 
     </aside>
     <header>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-2">
+                <div class="col-2 col-sm-2">
                     <div class="logo-img-area">
                         <a href="" class="logo-img">
                             <img src="../assets/img/objects/ALLDLogoSmall.png" alt="Logo ALLD">
                         </a>
                     </div>
                 </div>
-                <div class="col-8">
+                <div class="col-8 col-sm-8">
                     <div class="search-bar-div">
                         <form action="" method="get" class="search-bar-forms">
                             <input type="text" name="pesquisa" id="search-bar" placeholder="Busque por joias, alianças...">
@@ -35,7 +35,7 @@
                         </form>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-2 col-sm-2" style="display: flex; align-items: center; justify-content: center;">
                     <div class="service-div">
                         <div class="user-div">
                             <a href="">
@@ -57,6 +57,12 @@
                             </a>
                         </div>
                     </div>
+                    <input type="checkbox" name="" id="checkbox-menu">
+                    <label for="checkbox-menu" class="label-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
                 </div>
             </div>
         </div>
@@ -79,6 +85,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <!-- JS -->
     <script type="module" src="../assets/js/menu.js"></script>
+    <script src="../assets/js/header/header.js"></script>
 </body>
 
 </html>

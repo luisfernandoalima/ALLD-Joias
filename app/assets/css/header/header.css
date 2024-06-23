@@ -74,6 +74,10 @@ header {
 
 .service-div {
     height: 7vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .service-div,
@@ -86,12 +90,9 @@ header {
 
 .user-div,
 .cart-div {
-    width: 5vw;
+    width: 50%;
 }
 
-.user-div {
-    margin-right: 40px
-}
 
 .user-div a,
 .cart-div a {
@@ -114,7 +115,8 @@ header {
 
 .user-text,
 .cart-text {
-    margin-left: 5px;
+    margin-left: 5%;
+    font-size: .8em;
 }
 
 /* Links de navegação */
@@ -136,13 +138,85 @@ nav {
     transition: .3s;
 }
 
-.links li:hover{
+.links li:hover {
     background-color: var(--rosa1);
     border-radius: 30px;
 }
 
-.links a{
+.links a {
     color: #000;
     font-family: 'Ubuntu Mono';
     text-decoration: none;
+}
+
+/* Menu hamburguer */
+#checkbox-menu {
+    position: absolute;
+    opacity: 0;
+}
+
+label {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    height: 22px;
+    width: 30px;
+}
+
+label span {
+    position: absolute;
+    display: block;
+    height: 5px;
+    width: 100%;
+    border-radius: 30px;
+    background-color: black;
+    transition: .25s ease-in-out;
+}
+
+label span:nth-child(1) {
+    top: 0;
+}
+
+label span:nth-child(2) {
+    top: 8px;
+}
+
+label span:nth-child(3) {
+    top: 16px;
+}
+
+#checkbox-menu:checked+label span:nth-child(1) {
+    transform: rotate(-45deg);
+    top: 8px;
+}
+
+#checkbox-menu:checked+label span:nth-child(2) {
+    opacity: 0;
+}
+
+#checkbox-menu:checked+label span:nth-child(3) {
+    transform: rotate(45deg);
+    top: 8px;
+}
+
+.label-menu {
+    display: none;
+}
+
+@media (max-width:818px) {
+    .service-div {
+        display: none;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .search-bar-forms {
+        display: none;
+    }
+
+    .label-menu {
+        display: block;
+    }
 }
