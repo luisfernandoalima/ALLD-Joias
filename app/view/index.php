@@ -77,19 +77,44 @@
             </ul>
         </nav>
         <div class="mobile-nav">
-            <div class="row">
-                <div class="col-10">
-                    <div class="search-bar-mobile-div">
-                        <form action="" method="get" class="search-bar-mobile-forms">
-                            <input type="text" name="pesquisa" id="search-bar-mobile" placeholder="Busque por joias, alianças...">
-                            <button class="search-bar-mobile-button"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></button>
-                        </form>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-10">
+                        <div class="search-bar-mobile-div">
+                            <form action="" method="get" class="search-bar-mobile-forms">
+                                <input type="text" name="pesquisa" id="search-bar-mobile" placeholder="Busque por joias, alianças...">
+                                <button class="search-bar-mobile-button"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <i class="fa-solid fa-bag-shopping" style="color: #000000; font-size: 1.8em;"></i>
                     </div>
                 </div>
-                <div class="col-2">
-                    <i class="fa-solid fa-bag-shopping" style="color: #000000; font-size: 1.8em;"></i>
+            </div>
+        </div>
+        <div class="shop-cart">
+            <div class="shop-cart-header">
+                <div class="row">
+                    <div class="col-10" style="display: flex; align-items: center; justify-content: start;">
+                        <p class="shop-cart-title">
+                            <i class="fa-solid fa-bag-shopping" style="color: #000000;"></i>
+                            <strong>Carrinho</strong>
+                        </p>
+                    </div>
+                    <div class="col-2" style="display: flex; align-items: center; justify-content: center;">
+                        <i class="fa-solid fa-x close-button" style="color: #000000;"></i>
+                    </div>
                 </div>
             </div>
+            <div class="shop-cart-content">
+                <div class="shop-cart-item">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="menu-mobile">
+
         </div>
     </header>
 

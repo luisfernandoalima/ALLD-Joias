@@ -220,6 +220,41 @@ label span:nth-child(3) {
     display: none;
 }
 
+.shop-cart  {
+    position: absolute;
+    height: 100vh;
+    top: 0px;
+    right: 0px;
+    width: 28vw;
+    background-color: #F4F4F4;
+    box-shadow: #797979 -4px 0px 15px;
+}
+
+.shop-cart-header{
+    padding: 15px 20px;
+}
+
+.shop-cart-title {
+    font-size: 1.3em;
+    margin-bottom: 0em;
+}
+
+.shop-cart-title i{
+    font-size: 1.1em;
+}
+
+.close-button{
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.shop-cart-content{
+    padding: 0px 15px;
+    border: 2px red solid;
+    height: 88%;
+    overflow: auto;
+}
+
 @media (max-width:818px) {
     .service-div {
         display: none;
@@ -283,5 +318,9 @@ label span:nth-child(3) {
     .cart-number {
         top: 60px;
         right: 60px;
+    }
+
+    .shop-cart {
+        width: 40vw;
     }
 }
