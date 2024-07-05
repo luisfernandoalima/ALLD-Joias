@@ -109,7 +109,28 @@
             </div>
             <div class="shop-cart-content">
                 <div class="shop-cart-item">
-                    
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="shop-cart-item-img">
+                                <img src="../assets/img/objects/ALLDLogo.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <div class="shop-cart-item-info">
+                                <p>Nome do produto</p>
+                                <div class="row">
+                                    <div class="col-9 shop-cart-quant-area">
+                                        <div class="shop-cart-minus">-</div>
+                                        <input type="text" class="shop-cart-quant-input">
+                                        <div class="shop-cart-plus">+</div>
+                                    </div>
+                                    <div class="col-3 shop-cart-trash">
+                                    <i class="fa-solid fa-trash" style="color: #ff4747;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,14 +1,12 @@
-const menu = document.querySelector("#checkbox-menu")
+// Input de quantidade do carrinho
 
-const verificar_largura = () => {
-    let largura = window.innerWidth
-    console.log(largura)
-    if (largura <= 980) {
-        menu.classList.remove('disable')
-    } else{
-        menu.classList.add('disable')
-    }
+const btnMais = document.querySelectorAll(".shop-cart-plus");
+const btnMenos = document.querySelectorAll(".shop-cart-minus");
 
-}
+const inputQuant = document.querySelectorAll(".shop-cart-quant-input");
 
-verificar_largura()
+btnMais.forEach((btnMais, index) => {
+    btnMais.addEventListener('click', ()=>{
+        inputQuant[index].value = parseInt(inputQuant[index].value) + 1
+    })
+});
