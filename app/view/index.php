@@ -133,6 +133,13 @@
                     </div>
                 </div>
             </div>
+            <div class="shop-cart-bottom">
+                <a href="">
+                    <button>
+                        FINALIZAR
+                    </button>
+                </a>
+            </div>
         </div>
         <div class="menu-mobile">
 

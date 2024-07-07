@@ -3,6 +3,7 @@
 :root {
     --rosa1: #CFB2A3;
     --rosa2: #CFA3A6;
+    --rosa3: #CEB1A3;
 }
 
 * {
@@ -254,7 +255,7 @@ label span:nth-child(3) {
     justify-content: center;
     padding: 0px 15px;
     border: 2px red solid;
-    height: 75%;
+    height: 65%;
     overflow: auto;
 }
 
@@ -314,6 +315,29 @@ label span:nth-child(3) {
 
 .shop-cart-plus {
     border-radius: 0px 10px 10px 0px;
+}
+
+.shop-cart-bottom{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2PX SOLID black;
+}
+
+.shop-cart-bottom a{
+    display: block;
+    width: 80%;
+}
+
+.shop-cart-bottom button{
+    background-color: var(--rosa3);
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
 }
 
 @media (max-width:818px) {
