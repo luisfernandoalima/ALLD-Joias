@@ -233,6 +233,7 @@ label span:nth-child(3) {
 
 .shop-cart-header {
     padding: 15px 20px;
+    height: 9%;
 }
 
 .shop-cart-title {
@@ -249,20 +250,20 @@ label span:nth-child(3) {
     cursor: pointer;
 }
 
+ /* Área dos pedidos */
 .shop-cart-content {
     display: flex;
-    align-items: top;
-    justify-content: center;
+    flex-direction: column;
     padding: 0px 15px;
-    border: 2px red solid;
-    height: 65%;
+    height: 76%;
     overflow: auto;
 }
 
 .shop-cart-item {
     width: 100%;
     height: min-content;
-    border: 2px green solid;
+    margin-top: 5px;
+    border-bottom: 1px #bdbdbd solid;
     display: flex;
     justify-content: center;
 }
@@ -274,6 +275,12 @@ label span:nth-child(3) {
 
 .shop-cart-item-info p {
     margin-bottom: 0px;
+    /* Impede que o texto quebre em múltiplas linhas */
+    white-space: nowrap;
+    /* Esconde o texto que ultrapassa os limites do elemento */
+    overflow: hidden;
+    /* Adiciona "..." no final do texto que não cabe */
+    text-overflow: ellipsis;
 }
 
 .shop-cart-trash,
@@ -307,6 +314,7 @@ label span:nth-child(3) {
     font-size: 1em;
     font-weight: bold;
     cursor: pointer;
+    user-select: none;
 }
 
 .shop-cart-minus {
@@ -317,20 +325,33 @@ label span:nth-child(3) {
     border-radius: 0px 10px 10px 0px;
 }
 
-.shop-cart-bottom{
-    height: 20%;
+.shop-cart-price{
+    width: 80%;
     display: flex;
-    justify-content: center;
     align-items: center;
-    border: 2PX SOLID black;
+    justify-content: space-between;
 }
 
-.shop-cart-bottom a{
+.shop-cart-price p{
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+    /* Botão para finalizar compra */
+.shop-cart-bottom {
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop-cart-bottom a {
     display: block;
     width: 80%;
 }
 
-.shop-cart-bottom button{
+.shop-cart-bottom button {
     background-color: var(--rosa3);
     font-size: 1.2em;
     font-weight: bold;
@@ -406,6 +427,6 @@ label span:nth-child(3) {
     }
 
     .shop-cart {
-        width: 40vw;
+        width: 60vw;
     }
 }

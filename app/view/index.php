@@ -134,6 +134,10 @@
                 </div>
             </div>
             <div class="shop-cart-bottom">
+                <div class="shop-cart-price">
+                    <p>Valor total:</p>
+                    <p>R$<span>0,00</span></p>
+                </div>
                 <a href="">
                     <button>
                         FINALIZAR

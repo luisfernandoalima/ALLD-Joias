@@ -10,3 +10,9 @@ btnMais.forEach((btnMais, index) => {
         inputQuant[index].value = parseInt(inputQuant[index].value) + 1
     })
 });
+
+btnMenos.forEach((btnMenos, index) => {
+    btnMenos.addEventListener('click', () => {
+        inputQuant[index].value = parseInt(inputQuant[index].value) - 1
+    })
+})
