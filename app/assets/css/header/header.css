@@ -20,6 +20,14 @@ header {
     padding-top: 10px;
 }
 
+/* Barra de informações */
+.extra-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--rosa1);
+}
+
 /* Logo */
 .logo-img {
     display: flex;
@@ -455,6 +463,9 @@ label span:nth-child(3) {
 }
 
 @media (max-width:818px) {
+    .extra-bar{
+        display: none;
+    }
     .service-div {
         display: none;
     }

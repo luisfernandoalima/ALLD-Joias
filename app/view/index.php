@@ -16,8 +16,11 @@
 </head>
 
 <body>
-    <aside>
-
+    <aside class="extra-bar">
+        <div><i class="fa-solid fa-truck-fast" style="color: #000000;"></i> Frete grátis</div>
+        <div><i class="fa-solid fa-credit-card" style="color: #000000;"></i> Até 12X sem juros</div>
+        <div><i class="fa-solid fa-phone" style="color: #000000;"></i> Ligue: (00) 0000-0000</div>
+        <div><i class="fa-brands fa-whatsapp" style="color: #000000;"></i> Chame no WhatsApp</div>
     </aside>
     <header>
         <div class="container-fluid">
