@@ -53,10 +53,11 @@ header {
     padding: 5px 15px;
     background-color: #e4e4e4;
     border-radius: 30px;
+    cursor: text;
 }
 
 #search-bar {
-    width: 80%;
+    width: 85%;
     border: none;
     background-color: transparent;
 }
