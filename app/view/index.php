@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
+    <title>ALLD Joias - Página Inicial</title>
+    <link rel="shortcut icon" href="../assets/img/objects/ALLDLogoRedondo.png" type="image/x-icon">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/b95d68622e.js" crossorigin="anonymous"></script>
     <!-- Bootstrap -->
@@ -21,14 +22,16 @@
     <header>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-2 col-sm-2">
+                <!-- Logo -->
+                <div class="col-2 col-sm-2" style="display: flex; align-items: center;">
                     <div class="logo-img-area">
                         <a href="" class="logo-img">
                             <img src="../assets/img/objects/ALLDLogoSmall.png" alt="Logo ALLD">
                         </a>
                     </div>
                 </div>
-                <div class="col-8 col-sm-8">
+                <!-- Barra de pesquisa -->
+                <div class="col-8 col-sm-8" style="display: flex; align-items: center; justify-content: center;">
                     <div class="search-bar-div">
                         <form action="" method="get" class="search-bar-forms">
                             <input type="text" name="pesquisa" id="search-bar" placeholder="Busque por joias, alianças...">
@@ -36,6 +39,7 @@
                         </form>
                     </div>
                 </div>
+                <!-- Área de serviços -->
                 <div class="col-2 col-sm-2" style="display: flex; align-items: center; justify-content: center;">
                     <div class="service-div">
                         <div class="user-div">
@@ -55,6 +59,7 @@
                             </div>
                         </div>
                     </div>
+                    <!-- Menu hamburgue -->
                     <input type="checkbox" name="" id="checkbox-menu">
                     <label for="checkbox-menu" class="label-menu">
                         <span></span>
@@ -64,6 +69,7 @@
                 </div>
             </div>
         </div>
+        <!-- Links de Navegação -->
         <nav>
             <ul class="links">
                 <li><a href="">Novidades</a></li>
@@ -78,6 +84,7 @@
         <div class="mobile-nav">
             <div class="container-fluid">
                 <div class="row">
+                    <!-- Barra de pesquisa mobile -->
                     <div class="col-10">
                         <div class="search-bar-mobile-div">
                             <form action="" method="get" class="search-bar-mobile-forms">
@@ -92,6 +99,7 @@
                 </div>
             </div>
         </div>
+        <!-- Carrinho -->
         <div class="shop-cart disable">
             <div class="shop-cart-header">
                 <div class="row">
@@ -144,8 +152,22 @@
                 </a>
             </div>
         </div>
+        <!-- Menu mobile -->
         <div class="menu-mobile">
-
+            <div class="close-button-area">
+                <i class="fa-solid fa-x close-button" style="color: #000000;"></i>
+            </div>
+            <div class="menu-mobile-header">
+                <a href="">
+                    <div class="user-img">
+                        <img src="../assets/img/users/user.png" alt="">
+                    </div>
+                    <div class="texts">
+                        <p class="user-name">Luisdddddddddddddddddddddddddd</p>
+                        <p class="user-email">luis@gmail.com</p>
+                    </div>
+                </a>
+            </div>
         </div>
     </header>
 

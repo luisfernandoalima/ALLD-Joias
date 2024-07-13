@@ -33,6 +33,10 @@ header {
 }
 
 /* Barra de busca */
+.search-bar-div {
+    width: 100%;
+}
+
 .search-bar-forms {
     display: flex;
     align-items: center;
@@ -118,19 +122,6 @@ header {
 .cart-text {
     margin-left: 5%;
     font-size: .8em;
-}
-
-.cart-number {
-    position: absolute;
-    background-color: red;
-    color: #fff;
-    top: 2.8%;
-    right: 5.1%;
-    border-radius: 50%;
-    font-size: .7em;
-    text-align: center;
-    height: 15px;
-    width: 15px;
 }
 
 /* Links de navegação */
@@ -221,7 +212,8 @@ label span:nth-child(3) {
     display: none;
 }
 
-.shop-cart {
+.shop-cart,
+.menu-mobile {
     position: absolute;
     height: 100vh;
     top: 0px;
@@ -250,7 +242,7 @@ label span:nth-child(3) {
     cursor: pointer;
 }
 
- /* Área dos pedidos */
+/* Área dos pedidos */
 .shop-cart-content {
     display: flex;
     flex-direction: column;
@@ -325,19 +317,19 @@ label span:nth-child(3) {
     border-radius: 0px 10px 10px 0px;
 }
 
-.shop-cart-price{
+.shop-cart-price {
     width: 80%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.shop-cart-price p{
+.shop-cart-price p {
     margin-bottom: 8px;
     font-weight: bold;
 }
 
-    /* Botão para finalizar compra */
+/* Botão para finalizar compra */
 .shop-cart-bottom {
     height: 15%;
     display: flex;
@@ -359,6 +351,52 @@ label span:nth-child(3) {
     border-radius: 10px;
     padding: 10px;
     width: 100%;
+}
+
+/* Menu mobile */
+.close-button-area{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 10px;
+}
+
+.close-button-area i {
+    cursor: pointer;
+}
+
+.menu-mobile-header{
+    padding:0px 10px;
+}
+
+.user-img {
+    width: fit-content;
+}
+
+.user-img img {
+    max-height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.menu-mobile-header a {
+    display: flex;
+    align-items: center;
+    color: #000;
+    text-decoration: none;
+    width: 100%;
+}
+
+.texts p {
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.user-name{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 @media (max-width:818px) {
@@ -421,12 +459,8 @@ label span:nth-child(3) {
         width: 24px;
     }
 
-    .cart-number {
-        top: 60px;
-        right: 60px;
-    }
-
-    .shop-cart {
+    .shop-cart,
+    .menu-mobile {
         width: 60vw;
     }
 }
