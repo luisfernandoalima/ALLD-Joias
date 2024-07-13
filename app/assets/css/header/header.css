@@ -354,7 +354,7 @@ label span:nth-child(3) {
 }
 
 /* Menu mobile */
-.close-button-area{
+.close-button-area {
     display: flex;
     align-items: center;
     justify-content: end;
@@ -365,8 +365,8 @@ label span:nth-child(3) {
     cursor: pointer;
 }
 
-.menu-mobile-header{
-    padding:0px 10px;
+.menu-mobile-header {
+    padding: 0px 10px;
 }
 
 .user-img {
@@ -388,15 +388,70 @@ label span:nth-child(3) {
     width: 100%;
 }
 
+.texts {
+    display: block;
+    width: 70%;
+}
+
 .texts p {
     width: 100%;
     margin-bottom: 0px;
 }
 
-.user-name{
+.user-name {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.user-email {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Navegação do menu mobile */
+.nav-links-mobile nav {
+    width: 100%;
+}
+
+.links-mobile {
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.links-mobile li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 10px 0px;
+    padding: 0px 0px 10px 0px;
+    width: 80%;
+    border-bottom: 1px #797979 solid;
+}
+
+.links-mobile li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 5px;
+    font-family: 'Ubuntu Mono';
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #000;
+    transition: .3s;
+}
+
+.links-mobile li a:hover {
+    border-radius: 30px;
+    background-color: var(--rosa1);
 }
 
 @media (max-width:818px) {

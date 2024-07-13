@@ -168,6 +168,20 @@
                     </div>
                 </a>
             </div>
+            <hr>
+            <div class="nav-links-mobile">
+                <nav>
+                    <ul class="links-mobile">
+                        <li><a href="">Novidades</a></li>
+                        <li><a href="">Joias</a></li>
+                        <li><a href="">Acessórios</a></li>
+                        <li><a href="">Casamento</a></li>
+                        <li><a href="">Anéis</a></li>
+                        <li><a href="">Brincos</a></li>
+                        <li><a href="">Correntes</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
 
