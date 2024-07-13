@@ -16,3 +16,7 @@ btnMenos.forEach((btnMenos, index) => {
         inputQuant[index].value = parseInt(inputQuant[index].value) - 1
     })
 })
+
+import { shoppingCartFunction } from "./shopping-cart.js";
+
+shoppingCartFunction()

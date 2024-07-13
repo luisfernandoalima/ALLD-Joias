@@ -430,3 +430,7 @@ label span:nth-child(3) {
         width: 60vw;
     }
 }
+
+.disable {
+    display: none;
+}

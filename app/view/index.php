@@ -11,6 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="../assets/css/header/header.css">
+    <link rel="stylesheet" href="../assets/css/animations.css">
 </head>
 
 <body>
@@ -46,14 +47,12 @@
                             </a>
                         </div>
                         <div class="cart-div">
-                            <a href="">
-                                <div class="cart-icon">
-                                    <i class="fa-solid fa-bag-shopping" style="color: #000000;"></i>
-                                </div>
-                                <div class="cart-text">
-                                    Carrinho
-                                </div>
-                            </a>
+                            <div class="cart-icon">
+                                <i class="fa-solid fa-bag-shopping" style="color: #000000;"></i>
+                            </div>
+                            <div class="cart-text">
+                                Carrinho
+                            </div>
                         </div>
                     </div>
                     <input type="checkbox" name="" id="checkbox-menu">
@@ -88,12 +87,12 @@
                         </div>
                     </div>
                     <div class="col-2">
-                        <i class="fa-solid fa-bag-shopping" style="color: #000000; font-size: 1.8em;"></i>
+                        <i class="fa-solid fa-bag-shopping shopping-cart-mobile" style="color: #000000; font-size: 1.8em;"></i>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="shop-cart">
+        <div class="shop-cart disable">
             <div class="shop-cart-header">
                 <div class="row">
                     <div class="col-10" style="display: flex; align-items: center; justify-content: start;">
@@ -125,7 +124,7 @@
                                         <div class="shop-cart-plus">+</div>
                                     </div>
                                     <div class="col-3 shop-cart-trash">
-                                    <i class="fa-solid fa-trash" style="color: #ff4747;"></i>
+                                        <i class="fa-solid fa-trash" style="color: #ff4747;"></i>
                                     </div>
                                 </div>
                             </div>
@@ -156,7 +155,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <!-- JS -->
     <script type="module" src="../assets/js/menu.js"></script>
-    <script src="../assets/js/header/header.js"></script>
+    <script type="module" src="../assets/js/header/header.js"></script>
 </body>
 
 </html>
