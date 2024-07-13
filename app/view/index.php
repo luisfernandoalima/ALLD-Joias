@@ -153,9 +153,9 @@
             </div>
         </div>
         <!-- Menu mobile -->
-        <div class="menu-mobile">
+        <div class="menu-mobile disable">
             <div class="close-button-area">
-                <i class="fa-solid fa-x close-button" style="color: #000000;"></i>
+                <i class="fa-solid fa-x close-button-menu" style="color: #000000;"></i>
             </div>
             <div class="menu-mobile-header">
                 <a href="">

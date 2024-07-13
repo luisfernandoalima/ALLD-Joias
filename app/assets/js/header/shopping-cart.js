@@ -7,10 +7,8 @@ const shoppingCartFunction = () => {
     const disableShoppingCart = () => {
         if (shoppingCart.classList.contains('disable')) {
             shoppingCart.classList.remove('disable');
-            console.log('disable')
         } else {
             shoppingCart.classList.add('disable');
-            console.log('disablex')
         }
     }
 
