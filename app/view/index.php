@@ -13,6 +13,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="../assets/css/header/header.css">
     <link rel="stylesheet" href="../assets/css/animations.css">
+    <link rel="stylesheet" href="../assets/css/main/main-page.css">
 </head>
 
 <body>
@@ -188,6 +189,7 @@
         </div>
     </header>
     <main>
+        <!-- Carrossel de apresentação -->
         <div class="carousel-events">
             <div id="carousel-events" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -203,6 +205,58 @@
                     <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carousel-events" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- Categorias -->
+        <div class="categoria-div">
+            <p class="title-main">CATEGORIAS</p>
+            <p class="subtitle-main">Navegue pelas categorias</p>
+            <div id="carousel-categorias" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-categorias" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel-categorias" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-3">
+                                <div class="item-categoria" style="background-image: url('../assets/img/objects/categoria-aneis.jpg');">
+                                    <h2>Brincos</h2>
+                                    <a href=""><button>Ver mais</button></a>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="item-categoria" >
+                                    <h2>Brincos</h2>
+                                    <a href=""><button>Ver mais</button></a>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="item-categoria">
+                                    <h2>Brincos</h2>
+                                    <a href=""><button>Ver mais</button></a>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-3">
+                                <div class="item-categoria">
+                                    <h2>Brincos</h2>
+                                    <a href=""><button>Ver mais</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-categorias" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-categorias" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>

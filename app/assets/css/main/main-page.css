@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.categoria-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title-main {
+    font-family: 'Courier Prime';
+    font-size: 3em;
+    margin-bottom: 0px;
+    height: 50px;
+}
+
+.subtitle-main {
+    font-family: 'Ubuntu Mono';
+    font-size: 1.2em;
+}
+
+.item-categoria {
+    border: 2px red solid;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    height: 400px;
+    padding: 15px;
+
+    background-position: center;
+    background-size: cover;
+}
+
+#categoria-aneis {
+    background-image: url('../../img/objects/categoria-aneis.jpg');
+}
+
+#carousel-categorias {
+    width: 80%;
+}
