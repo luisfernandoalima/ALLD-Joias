@@ -25,7 +25,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: var(--rosa1);
+    background-color: var(--rosa2);
+}
+
+.extra-bar div {
+    font-size: .8em;
 }
 
 /* Logo */
