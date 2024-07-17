@@ -54,6 +54,10 @@
     transform: scale(1.2);
 }
 
+.carousel-produtos {
+    margin-top: 30px;
+}
+
 @media (max-width:818px) {
     .item-categoria {
         height: 260px;

@@ -247,6 +247,37 @@
                 </div>
             </div>
         </section>
+        <!-- Carrossel de categorias -->
+        <div class="carousel-produtos" style="width: 100%;">
+            <div id="carousel-produtos" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="">
+                            <picture>
+                                <source media="(max-width: 818px)" srcset="../assets/img/objects/inicioMobile03.png" type="image/png">
+                                <img src="../assets/img/objects/inicio03.png" class="d-block w-100" alt="Presenteie que você ama">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="">
+                            <picture>
+                                <source media="(max-width: 818px)" srcset="../assets/img/objects/inicioMobile04.png" type="image/png">
+                                <img src="../assets/img/objects/inicio04.png" class="d-block w-100" alt="Para homens de personalidade">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-produtos" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-produtos" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
     </main>
 
 
