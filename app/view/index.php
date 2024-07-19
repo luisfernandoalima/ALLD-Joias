@@ -398,8 +398,37 @@
             </div>
         </section>
     </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-12 col-md-6">
+                    <p>Sobre a Empresa</p>
+                </div>
+                <div class="col-6 col-sm-12 col-md-6">
+                    <p>Acompanhe as novidades</p>
+                    <form action="">
+                        <input type="text" name="inputEmailSpan" id="inputEmailSpan">
+                        <input type="submit" value="CADASTRAR">
+                    </form>
+                    <span>Confirmo ter lido os termos de uso e politica de privacidade, declaro ser maior de idade e aceito receber mensagens de marketing</span>
+                </div>
+            </div>
+            <div class="redes-sociais">
+                <p>Redes Sociais</p>
+                <ul>
+                    <li><a href="">Instagram <i class="fa-brands fa-instagram" style="color: #000000;"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copy-div">
+            <div class="logofooter">
 
-
+            </div>
+            <p>Desenvolvido por:</p>
+            <p>Luis Fernando Alves de Lima</p>
+            <i class="fa-brands fa-github" style="color: #000000;"></i>
+        </div>
+    </footer>
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <!-- Jquery -->

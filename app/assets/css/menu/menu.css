@@ -470,8 +470,12 @@ label span:nth-child(3) {
 .voltar-div {
     margin: auto;
     width: 200px;
+    transition: .3s;
 }
 
+.voltar-div:hover{
+    transform: scale(1.2);
+}
 
 .icon-back-area {
     height: 40px;
