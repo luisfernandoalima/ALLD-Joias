@@ -10,6 +10,9 @@
     <script src="https://kit.fontawesome.com/b95d68622e.js" crossorigin="anonymous"></script>
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Slick -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- CSS -->
     <link rel="stylesheet" href="../assets/css/header/header.css">
     <link rel="stylesheet" href="../assets/css/animations.css">
@@ -278,14 +281,124 @@
                 </button>
             </div>
         </div>
+        <!-- Novidades -->
+        <section class="novidades-div">
+            <h1 class="title-main">CATEGORIAS</h1>
+            <p class="subtitle-main">Navegue pelas categorias</p>
+            <div class="carousel-novidades">
+                <button type="button" class="slick-prev">Previous</button>
+                <div class="slide-novidades">
+                    <div class="item-card">
+                        <a href="">
+                            <div class="item-img">
+                                <img src="../assets/img/produtos/aliancas.jpg" alt="">
+                            </div>
+                            <div class="item-info">
+                                <p class="item-name">Aliança de Ouro 500 quilates</p>
+                                <div class="item-rate">
+                                </div>
+                                <div class="item-price">
+                                    <p>R$1.450,00</p>
+                                    <p style="font-weight: 500;">ou 6X de R$10,00 sem juros</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item-card">
+                        <a href="">
+                            <div class="item-img">
+                                <img src="../assets/img/produtos/aliancas.jpg" alt="">
+                            </div>
+                            <div class="item-info">
+                                <p class="item-name">Aliança de Ouro 500 quilates</p>
+                                <div class="item-rate">
+                                </div>
+                                <div class="item-price">
+                                    <p>R$1.450,00</p>
+                                    <p style="font-weight: 500;">ou 6X de R$10,00 sem juros</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item-card">
+                        <a href="">
+                            <div class="item-img">
+                                <img src="../assets/img/produtos/aliancas.jpg" alt="">
+                            </div>
+                            <div class="item-info">
+                                <p class="item-name">Aliança de Ouro 500 quilates</p>
+                                <div class="item-rate">
+                                </div>
+                                <div class="item-price">
+                                    <p>R$1.450,00</p>
+                                    <p style="font-weight: 500;">ou 6X de R$10,00 sem juros</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item-card">
+                        <a href="">
+                            <div class="item-img">
+                                <img src="../assets/img/produtos/aliancas.jpg" alt="">
+                            </div>
+                            <div class="item-info">
+                                <p class="item-name">Aliança de Ouro 500 quilates</p>
+                                <div class="item-rate">
+                                </div>
+                                <div class="item-price">
+                                    <p>R$1.450,00</p>
+                                    <p style="font-weight: 500;">ou 6X de R$10,00 sem juros</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item-card">
+                        <a href="">
+                            <div class="item-img">
+                                <img src="../assets/img/produtos/aliancas.jpg" alt="">
+                            </div>
+                            <div class="item-info">
+                                <p class="item-name">Aliança de Ouro 500 quilates</p>
+                                <div class="item-rate">
+                                </div>
+                                <div class="item-price">
+                                    <p>R$1.450,00</p>
+                                    <p style="font-weight: 500;">ou 6X de R$10,00 sem juros</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item-card">
+                        <a href="">
+                            <div class="item-img">
+                                <img src="../assets/img/produtos/aliancas.jpg" alt="">
+                            </div>
+                            <div class="item-info">
+                                <p class="item-name">Aliança de Ouro 500 quilates</p>
+                                <div class="item-rate">
+                                </div>
+                                <div class="item-price">
+                                    <p>R$1.450,00</p>
+                                    <p style="font-weight: 500;">ou 6X de R$10,00 sem juros</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
 
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js" integrity="sha512-h9kKZlwV1xrIcr2LwAPZhjlkx+x62mNwuQK5PAu9d3D+JXMNlGx8akZbqpXvp0vA54rz+DrqYVrzUGDMhwKmwQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js" integrity="sha512-fDGBclS3HUysEBIKooKWFDEWWORoA20n60OwY7OSYgxGEew9s7NgDaPkj7gqQcVXnASPvZAiFW8DiytstdlGtQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- JS -->
-    <script type="module" src="../assets/js/menu.js"></script>
     <script type="module" src="../assets/js/header/header.js"></script>
+    <script type="text/javascript" src="../assets/js/main-page/slide.js"></script>
 </body>
 
 </html>
