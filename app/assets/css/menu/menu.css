@@ -21,7 +21,7 @@ header {
 }
 
 /* Barra de informações */
-.extra-bar{
+.extra-bar {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -227,7 +227,7 @@ label span:nth-child(3) {
 
 .shop-cart,
 .menu-mobile {
-    position: absolute;
+    position: fixed;
     height: 100vh;
     top: 0px;
     right: 0px;
@@ -467,10 +467,47 @@ label span:nth-child(3) {
     background-color: var(--rosa1);
 }
 
+.voltar-div {
+    margin: auto;
+    width: 200px;
+}
+
+
+.icon-back-area {
+    height: 40px;
+    width: 40px;
+    background-color: var(--rosa2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+}
+
+.voltar-div a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pageUpText {
+    color: var(--rosa2);
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.pageUpTextHover {
+    text-decoration: underline;
+}
+
 @media (max-width:818px) {
-    .extra-bar{
+    .extra-bar {
         display: none;
     }
+
     .service-div {
         display: none;
     }
