@@ -473,7 +473,7 @@ label span:nth-child(3) {
     transition: .3s;
 }
 
-.voltar-div:hover{
+.voltar-div:hover {
     transform: scale(1.2);
 }
 
@@ -505,6 +505,46 @@ label span:nth-child(3) {
 
 .pageUpTextHover {
     text-decoration: underline;
+}
+
+.logofooter {
+    padding: 5px;
+    background-color: #FFF;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+
+.logofooter img {
+    display: block;
+    width: 100%;
+    border: 5px solid var(--rosa3);
+    border-radius: 50%;
+}
+
+.copy-div {
+    background-color: var(--rosa3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px 0px;
+}
+
+.copy-div p {
+    margin-bottom: 0px;
+}
+
+.copy-div a {
+    color: #000;
+}
+
+.copy-div a p {
+    margin-bottom: 0px;
+}
+
+.copy-div a i {
+    font-size: 1.5em;
 }
 
 @media (max-width:818px) {

@@ -422,11 +422,15 @@
         </div>
         <div class="copy-div">
             <div class="logofooter">
-
+                <img src="../assets/img/objects/ALLDLogoRedondo.png" alt="Logo da Alld">
             </div>
             <p>Desenvolvido por:</p>
-            <p>Luis Fernando Alves de Lima</p>
-            <i class="fa-brands fa-github" style="color: #000000;"></i>
+            <a href="">
+                <p>Luis Fernando Alves de Lima</p>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-github" style="color: #000000;"></i>
+            </a>
         </div>
     </footer>
     <!-- Bootstrap -->
