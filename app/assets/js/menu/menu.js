@@ -11,4 +11,7 @@ import { barraDePesquisa } from "./search-bar.js";
 barraDePesquisa();
 
 import { pageUpTextFunction } from "./hover-pageup.js";
-pageUpTextFunction()
+pageUpTextFunction();
+
+import { emailButtonVerification } from "./footer-span.js";
+emailButtonVerification();

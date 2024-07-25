@@ -507,6 +507,37 @@ label span:nth-child(3) {
     text-decoration: underline;
 }
 
+.Span-Forms input[type='email'] {
+    border: none;
+    border-bottom: 2px solid #000;
+    width: 70%;
+}
+
+.Span-Forms input[type='email']::placeholder {
+    color: #000;
+}
+
+.Span-Forms input[type='email']:focus {
+    outline: none;
+}
+
+.Span-Forms input[type='submit'] {
+    border: none;
+    border-radius: 30px;
+    background-color: var(--rosa3);
+    padding: 5px 10px;
+    transition: .3s;
+}
+
+.Span-Forms input[type='submit']:hover {
+    background-color: #a08a7f;
+}
+
+.Span-Forms input[type='submit']:disabled{
+    background-color: #ffe5d8;
+    cursor: not-allowed;
+}
+
 .logofooter {
     padding: 5px;
     background-color: #FFF;

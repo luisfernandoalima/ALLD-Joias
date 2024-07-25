@@ -404,11 +404,11 @@
                 <div class="col-6 col-sm-12 col-md-6">
                     <p>Sobre a Empresa</p>
                 </div>
-                <div class="col-6 col-sm-12 col-md-6">
+                <div class="col-6 col-sm-12 col-md-6 Span-div">
                     <p>Acompanhe as novidades</p>
-                    <form action="">
-                        <input type="text" name="inputEmailSpan" id="inputEmailSpan">
-                        <input type="submit" value="CADASTRAR">
+                    <form action="" class="Span-Forms">
+                        <input type="email" name="inputEmailSpan" id="inputEmailSpan" placeholder="E-MAIL">
+                        <input type="submit" value="CADASTRAR" disabled>
                     </form>
                     <span>Confirmo ter lido os termos de uso e politica de privacidade, declaro ser maior de idade e aceito receber mensagens de marketing</span>
                 </div>
