@@ -401,11 +401,17 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-6 col-sm-12 col-md-6">
-                    <p>Sobre a Empresa</p>
+                <div class="col-sm-12 col-md-6 About-div">
+                    <p class="footerTextAbout">Sobre a Empresa</p>
+                    <p><u>Endereço:</u></p>
+                    <p>Rua ..., 0 - Bairro ...</p>
+                    <p>CEP.: 00000-000 - São Paulo - SP - Brasil</p>
+                    <p><u>WhatsApp:</u></p>
+                    <p>(00) 00000-0000</p>
                 </div>
-                <div class="col-6 col-sm-12 col-md-6 Span-div">
+                <div class="col-sm-12 col-md-6 Span-div">
                     <p>Acompanhe as novidades</p>
+                    <span>Cadastre seu E-mail para receber novidades!</span>
                     <form action="" class="Span-Forms">
                         <input type="email" name="inputEmailSpan" id="inputEmailSpan" placeholder="E-MAIL">
                         <input type="submit" value="CADASTRAR" disabled>

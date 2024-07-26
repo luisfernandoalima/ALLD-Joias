@@ -507,10 +507,30 @@ label span:nth-child(3) {
     text-decoration: underline;
 }
 
+.About-div p {
+    margin-bottom: 0px;
+}
+
+.footerTextAbout {
+    margin-bottom: 0px;
+    font-family: 'Ubuntu Mono';
+    font-size: 1.3em;
+}
+
+.Span-div p {
+    margin-bottom: 0px;
+    font-family: 'Ubuntu Mono';
+    font-size: 1.3em;
+}
+
+.Span-div span {
+    font-size: 14px;
+}
+
 .Span-Forms input[type='email'] {
     border: none;
     border-bottom: 2px solid #000;
-    width: 70%;
+    width: 60%;
 }
 
 .Span-Forms input[type='email']::placeholder {
@@ -533,9 +553,29 @@ label span:nth-child(3) {
     background-color: #a08a7f;
 }
 
-.Span-Forms input[type='submit']:disabled{
+.Span-Forms input[type='submit']:disabled {
     background-color: #ffe5d8;
     cursor: not-allowed;
+}
+
+.About-div, .Span-div {
+    padding-top: 20px ;
+    padding-bottom: 20px ;
+}
+
+.redes-sociais p{
+    margin-bottom: 0px;
+    font-family: 'Ubuntu Mono';
+    font-size: 1.3em;
+}
+
+.redes-sociais a{
+    color: #000;
+    text-decoration: none;
+}
+
+.redes-sociais a:hover{
+    text-decoration: underline;
 }
 
 .logofooter {
@@ -645,6 +685,10 @@ label span:nth-child(3) {
     .shop-cart,
     .menu-mobile {
         width: 60vw;
+    }
+
+    .About-div, .Span-div {
+        border-bottom: 1px solid #000;
     }
 }
 
