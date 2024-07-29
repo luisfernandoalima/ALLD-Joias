@@ -431,10 +431,10 @@
                 <img src="../assets/img/objects/ALLDLogoRedondo.png" alt="Logo da Alld">
             </div>
             <p>Desenvolvido por:</p>
-            <a href="">
+            <a href="https://github.com/luisfernandoalima">
                 <p>Luis Fernando Alves de Lima</p>
             </a>
-            <a href="">
+            <a href="https://github.com/luisfernandoalima">
                 <i class="fa-brands fa-github" style="color: #000000;"></i>
             </a>
         </div>

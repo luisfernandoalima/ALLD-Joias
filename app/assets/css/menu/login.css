@@ -1,0 +1,111 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Cabeçalho */
+
+header {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-bottom: 1px solid #000;
+}
+
+header img {
+    display: block;
+    height: 50px;
+    margin-left: 5vw;
+}
+
+/* Main */
+
+main{
+    height: 62vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form {
+    border: 1px solid red;
+    min-width: 400px;
+    max-width: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-area input {
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.password-viewer-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+input[type='submit']{
+    margin-top: 20px;
+    width: 400px;
+    align-self: center;
+    border: none;
+    background-color: #CEB1A3;
+    font-size: 1.5em;
+    border-radius: 30px;
+}
+
+/* Rodapé */
+.logofooter {
+    padding: 5px;
+    background-color: #FFF;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+
+.logofooter img {
+    display: block;
+    width: 100%;
+    border: 5px solid #CEB1A3;
+    border-radius: 50%;
+}
+
+.copy-div {
+    background-color: #CEB1A3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px 0px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.copy-div p {
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+
+.copy-div a {
+    color: #000;
+}
+
+.copy-div a p {
+    margin-bottom: 0px;
+}
+
+.copy-div a i {
+    font-size: 1em;
+}
