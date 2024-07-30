@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 * {
     padding: 0px;
     margin: 0px;
@@ -21,7 +24,11 @@ header img {
 
 /* Main */
 
-main{
+h1 {
+    font-family: 'Courier Prime';
+}
+
+main {
     height: 62vh;
     display: flex;
     align-items: center;
@@ -29,9 +36,12 @@ main{
     flex-direction: column;
 }
 
+main a {
+    color: #000;
+}
+
 form {
-    border: 1px solid red;
-    min-width: 400px;
+    min-width: 300px;
     max-width: 700px;
     width: 100%;
     display: flex;
@@ -46,16 +56,27 @@ form {
 .input-area input {
     padding: 5px;
     margin-bottom: 20px;
+    font-size: 1.2em;
 }
 
-.password-viewer-area{
+.password-viewer-area {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
 }
 
-input[type='submit']{
+.password-viewer-area a {
+    color: #000;
+    font-weight: bold;
+}
+
+.password-viewer label {
+    font-size: 1.2em;
+    padding-left: 5px;
+}
+
+input[type='submit'] {
     margin-top: 20px;
     width: 400px;
     align-self: center;
@@ -63,6 +84,11 @@ input[type='submit']{
     background-color: #CEB1A3;
     font-size: 1.5em;
     border-radius: 30px;
+    transition: .3s;
+}
+
+input[type='submit']:hover {
+    background-color: #947e73;
 }
 
 /* Rodapé */
@@ -108,4 +134,14 @@ input[type='submit']{
 
 .copy-div a i {
     font-size: 1em;
+}
+
+@media(max-width:818px) {
+    form {
+        width: 90%;
+    }
+
+    input[type='submit'] {
+        width: 90%;
+    }
 }
